@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shuuzu Store</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Roboto&display=swap"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="./css/output.css" />
+  </head>
+  <body>
+    <section class="home">
+      <div class="fixed top-0 left-0 w-full bg-myWhite shadow z-10">
+        <div class="flex items-center justify-between shadow px-3">
+          <div class="logo m-2">
+            <a href="">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="168"
+                height="48"
+                fill="none"
+                viewBox="0 0 168 48">
+                <path
+                  fill="#000"
+                  d="M11.196 35.36a19.17 19.17 0 0 1-5.652-.828c-1.8-.576-3.228-1.308-4.284-2.196L2.88 28.7c1.008.792 2.256 1.452 3.744 1.98 1.488.528 3.012.792 4.572.792 1.32 0 2.388-.144 3.204-.432.816-.288 1.416-.672 1.8-1.152a2.723 2.723 0 0 0 .576-1.692c0-.768-.276-1.38-.828-1.836-.552-.48-1.272-.852-2.16-1.116a29.515 29.515 0 0 0-2.916-.792 57.309 57.309 0 0 1-3.204-.828 15.265 15.265 0 0 1-2.916-1.26 6.538 6.538 0 0 1-2.124-2.088c-.552-.864-.828-1.968-.828-3.312 0-1.368.36-2.616 1.08-3.744.744-1.152 1.86-2.064 3.348-2.736 1.512-.696 3.42-1.044 5.724-1.044 1.512 0 3.012.192 4.5.576 1.488.384 2.784.936 3.888 1.656l-1.476 3.636a13.386 13.386 0 0 0-3.492-1.476c-1.2-.336-2.352-.504-3.456-.504-1.296 0-2.352.156-3.168.468-.792.312-1.38.72-1.764 1.224-.36.504-.54 1.08-.54 1.728 0 .768.264 1.392.792 1.872.552.456 1.26.816 2.124 1.08.888.264 1.872.528 2.952.792 1.08.24 2.148.516 3.204.828 1.08.312 2.052.72 2.916 1.224a5.807 5.807 0 0 1 2.124 2.052c.552.864.828 1.956.828 3.276a6.77 6.77 0 0 1-1.116 3.744c-.72 1.128-1.836 2.04-3.348 2.736-1.512.672-3.42 1.008-5.724 1.008Zm25.305-19.8c1.536 0 2.904.3 4.104.9 1.224.6 2.184 1.524 2.88 2.772.696 1.224 1.044 2.808 1.044 4.752V35h-4.5V24.56c0-1.704-.408-2.976-1.224-3.816-.792-.84-1.908-1.26-3.348-1.26-1.056 0-1.992.216-2.808.648-.816.432-1.452 1.08-1.908 1.944-.432.84-.648 1.908-.648 3.204V35h-4.5V8.288h4.5V20.96l-.972-1.584c.672-1.224 1.644-2.16 2.916-2.808 1.296-.672 2.784-1.008 4.464-1.008Zm21.872 19.692c-1.632 0-3.072-.3-4.32-.9-1.248-.624-2.22-1.56-2.916-2.808-.696-1.272-1.044-2.868-1.044-4.788v-10.98h4.5v10.368c0 1.728.384 3.024 1.152 3.888.792.84 1.908 1.26 3.348 1.26 1.056 0 1.968-.216 2.736-.648.792-.432 1.404-1.08 1.836-1.944.456-.864.684-1.932.684-3.204v-9.72h4.5V35h-4.284v-5.184l.756 1.584a6.722 6.722 0 0 1-2.844 2.88c-1.248.648-2.616.972-4.104.972Zm24.504 0c-1.632 0-3.072-.3-4.32-.9-1.248-.624-2.22-1.56-2.916-2.808-.696-1.272-1.044-2.868-1.044-4.788v-10.98h4.5v10.368c0 1.728.384 3.024 1.152 3.888.792.84 1.908 1.26 3.348 1.26 1.056 0 1.968-.216 2.736-.648.792-.432 1.404-1.08 1.836-1.944.456-.864.684-1.932.684-3.204v-9.72h4.5V35H89.07v-5.184l.756 1.584a6.722 6.722 0 0 1-2.844 2.88c-1.248.648-2.616.972-4.104.972ZM97.661 35v-2.844l11.844-14.328.828 1.548H97.877v-3.6h16.056v2.844l-11.844 14.328-.9-1.548h13.068V35H97.661Z" />
+                <path
+                  fill="#5863F8"
+                  d="M126.541 35.252c-1.632 0-3.072-.3-4.32-.9-1.248-.624-2.22-1.56-2.916-2.808-.696-1.272-1.044-2.868-1.044-4.788v-10.98h4.5v10.368c0 1.728.384 3.024 1.152 3.888.792.84 1.908 1.26 3.348 1.26 1.056 0 1.968-.216 2.736-.648.792-.432 1.404-1.08 1.836-1.944.456-.864.684-1.932.684-3.204v-9.72h4.5V35h-4.284v-5.184l.756 1.584a6.722 6.722 0 0 1-2.844 2.88c-1.248.648-2.616.972-4.104.972Z" />
+                <path
+                  fill="#5863F8"
+                  d="M139.873 10.368a1.01 1.01 0 0 0-.178.142l-3.001 3.001a2.248 2.248 0 0 0-.018 3.162l.019.02.093.103.357.385a299.543 299.543 0 0 0 5.56 5.839c3.267 3.334 7.191 7.149 9.529 8.72 2.633 1.779 5.026 2.78 6.772 3.338a19.33 19.33 0 0 0 2.089.546c.249.05.499.091.75.125l.037.004c.696.11 1.311.13 1.859.016a2.743 2.743 0 0 0 1.42-.762l.722-.722c.053-.054.1-.113.14-.175a3.153 3.153 0 0 0 1.031-2.332c-.12-1.334-1.378-2.104-2.492-2.785a4.768 4.768 0 0 1-1.473-1.134l-.82-1.914h.008a1.082 1.082 0 0 0 0-2.166h-.936l-.664-1.55a1.083 1.083 0 0 0-.402-2.09h-.493l-.549-1.28a1.08 1.08 0 0 0 1.036-1.107 1.085 1.085 0 0 0-1.087-1.057h-.876l-.424-.99a6.182 6.182 0 0 1-.136-.361 2.616 2.616 0 0 0-.742-1.173l-.536-.537a2.225 2.225 0 0 0-.874-.518v-.464c-.644-1.944-2.996-2.621-4.573-1.438l-2.194-2.238a2.136 2.136 0 0 0 .616-1.513 2.117 2.117 0 0 0-.638-1.504 3.208 3.208 0 0 0-4.532 0l-4.4 4.409Zm9.757 9.467.003-.768c0-1.754-.68-3.424-1.897-4.672l-4.445-4.533 2.439-2.442a1.09 1.09 0 0 1 1.637.103 2.121 2.121 0 0 0 0 2.99l4.568 4.581a2.216 2.216 0 0 0 3.073 0l.537.536a.714.714 0 0 1 .252.391l.003.01c.045.129.099.283.186.484l.076.18h-.973c-.598 0-1.083.484-1.083 1.082a1.096 1.096 0 0 0 1.083 1.083h1.901l.548 1.28h-.81c-.598 0-1.082.484-1.082 1.082a1.096 1.096 0 0 0 1.082 1.083h1.738l.631 1.474h-1.007c-.598 0-1.083.485-1.083 1.083 0 .3.124.567.32.763.195.196.464.31.763.32h1.935l1.169 2.729a5.248 5.248 0 0 0 2.296 2.075l.003.002c.519.316 1.483.904 1.509 1.198 0 .058-.057.234-.314.523a22.321 22.321 0 0 1-5.154-1.281c-3.033-1.167-6.17-3.241-7.34-6.91l-.001-.002c-.418-1.3-1.359-2.813-2.45-4.294l-.113-.15Zm-11.48-4.604a.178.178 0 0 1 0-.221l2.305-2.306a101.38 101.38 0 0 1 4.053 4.207c1.245 1.372 2.523 2.872 3.573 4.297 1.067 1.447 1.837 2.735 2.147 3.7.048.15.099.3.153.448l-12.228-10.123-.003-.002Z" />
+              </svg>
+            </a>
+          </div>
+          <div class="no-underline">
+            <a href="#home" class="font-montserrat font-semibold px-4 under"
+              >Home</a
+            >
+            <a href="./men.html" class="font-montserrat font-semibold px-4"
+              >Men</a
+            >
+            <a href="" class="font-montserrat font-semibold px-4">Woman</a>
+            <a href="" class="font-montserrat font-semibold px-4">Kids</a>
+          </div>
+          <div class="navbar-extra flex m-2">
+            <a href="" class="px-2">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="30"
+                height="30"
+                fill="none"
+                viewBox="0 0 40 40">
+                <path
+                  fill="#5863F8"
+                  d="M35.884 24.116 32.5 20.733V16.25A12.518 12.518 0 0 0 21.25 3.812V1.25h-2.5v2.563A12.518 12.518 0 0 0 7.5 16.25v4.483l-3.384 3.383A1.25 1.25 0 0 0 3.75 25v3.75A1.25 1.25 0 0 0 5 30h8.75v1.25a6.25 6.25 0 0 0 12.5 0V30H35a1.25 1.25 0 0 0 1.25-1.25V25c0-.331-.132-.65-.366-.884ZM23.75 31.25a3.75 3.75 0 1 1-7.5 0V30h7.5v1.25Z" />
+              </svg>
+            </a>
+
+            <a href="" class="px-2">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="30"
+                height="30"
+                fill="none"
+                viewBox="0 0 40 40">
+                <path
+                  fill="#5863F8"
+                  d="M0 1.667h7.94L8.848 5h30.13l-6.11 18.333H12.967l-.834 3.334h24.534V30h-28.8l2.076-8.315L5.393 5H0V1.667ZM12.94 20h17.525l3.89-11.667H9.758L12.94 20ZM6.667 35a3.333 3.333 0 1 1 6.666 0 3.333 3.333 0 0 1-6.666 0ZM30 35a3.333 3.333 0 1 1 6.667 0A3.333 3.333 0 0 1 30 35Z" />
+              </svg>
+            </a>
+            <a href="" class="px-2">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="30"
+                height="30"
+                fill="none"
+                viewBox="0 0 47 47">
+                <path
+                  fill="#5863F8"
+                  d="M5.875 35.25v-3.917h35.25v3.917H5.875Zm0-9.792v-3.916h35.25v3.916H5.875Zm0-9.791V11.75h35.25v3.917H5.875Z" />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="container px-14 min-h-screen bg-cover bg-center bg-heroBg flex items-center">
+        <div class="w-[500px]">
+          <h1 class="font-montserrat text-myWhite font-bold shadow text-[50px]">
+            Find your dream shoes
+          </h1>
+          <div
+            class="bg-myWhite relative flex items-center rounded-lg max-w-[550px]">
+            <input
+              class="w-[450px] h-[53px] text-[19px] px-4 rounded-lg text-myBlack transition duration-200 align-middle border-none focus:outline-none"
+              type="text"
+              placeholder="Search" />
+            <button>
+              <svg
+                width="30"
+                height="30"
+                viewBox="0 0 30 30"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <g id="material-symbols:search">
+                  <path
+                    id="Vector"
+                    d="M24.5 26.25L16.625 18.375C16 18.875 15.2813 19.2708 14.4688 19.5625C13.6563 19.8542 12.7917 20 11.875 20C9.60417 20 7.6825 19.2133 6.11 17.64C4.5375 16.0667 3.75083 14.145 3.75 11.875C3.74917 9.605 4.53583 7.68333 6.11 6.11C7.68417 4.53667 9.60583 3.75 11.875 3.75C14.1442 3.75 16.0663 4.53667 17.6413 6.11C19.2163 7.68333 20.0025 9.605 20 11.875C20 12.7917 19.8542 13.6562 19.5625 14.4688C19.2708 15.2812 18.875 16 18.375 16.625L26.25 24.5L24.5 26.25ZM11.875 17.5C13.4375 17.5 14.7658 16.9533 15.86 15.86C16.9542 14.7667 17.5008 13.4383 17.5 11.875C17.4992 10.3117 16.9525 8.98375 15.86 7.89125C14.7675 6.79875 13.4392 6.25167 11.875 6.25C10.3108 6.24833 8.98292 6.79542 7.89125 7.89125C6.79958 8.98708 6.2525 10.315 6.25 11.875C6.2475 13.435 6.79458 14.7633 7.89125 15.86C8.98792 16.9567 10.3158 17.5033 11.875 17.5Z"
+                    fill="black" />
+                </g>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="brand mx-5 my-20">
+        <div class="text-myBlue flex justify-center">
+          <h1
+            class="font-montserrat text-center text-myBlue font-bold text-2xl">
+            Latest Product
+          </h1>
+        </div>
+        <div class="flex justify-center mt-10">
+          <a href="" class="transition-transform duration-300 hover:scale-110">
+            <div class="max-w-[350px] mx-3">
+              <img
+                src="./img/sepatu/Rectangle 18.png"
+                class="w-[380px] h-auto" />
+              <h3 class="text-lg font-montserrat">
+                Reebok Zig Dynamica 4 Adv Mens Running Shoes - Pure Grey
+              </h3>
+              <h3 class="font-montserrat font-bold">Rp 1.199.000</h3>
+            </div>
+          </a>
+
+          <a href="" class="transition-transform duration-300 hover:scale-110">
+            <div class="max-w-[350px] mx-3">
+              <img src="./img/sepatu/hoka.png" class="w-[380px] h-auto" />
+              <h3 class="text-lg">
+                Hoka Trail Code GTX Men`s Running Shoes - Shadow/Dusk
+              </h3>
+              <h3 class="font-montserrat font-bold">Rp 1.199.000</h3>
+            </div>
+          </a>
+
+          <a href="" class="transition-transform duration-300 hover:scale-110">
+            <div class="max-w-[350px] mx-3">
+              <img src="./img/sepatu/converse.png" class="w-[380px] h-auto" />
+              <h3 class="text-lg font-montserrat">
+                Converse CTAS Move Women's Sneakers - Soft Peach/White/Egret
+              </h3>
+              <h3 class="font-montserrat font-bold">Rp 1.199.000</h3>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <div class="flex justify-center my-20">
+        <div class="flex flex-col items-center">
+          <h1
+            class="font-montserrat text-center text-myBlue font-bold text-2xl">
+            Brand
+          </h1>
+          <div class="grid grid-cols-4 gap-6 mx-20 my-10 justify-center">
+            <a
+              href=""
+              class="transition-transform duration-300 hover:scale-110">
+              <div
+                class="h-[150px] w-[150px] bg-myWhite shadow flex items-center justify-center">
+                <img
+                  src="./img/brand/image 10.png "
+                  alt=""
+                  class="h-[100px] w-auto" /></div
+            ></a>
+
+            <a
+              href=""
+              class="transition-transform duration-300 hover:scale-110">
+              <div
+                class="h-[150px] w-[150px] bg-myWhite shadow flex items-center justify-center">
+                <img
+                  src="./img/brand/image 13.png"
+                  alt=""
+                  class="h-[100px] w-auto" />
+              </div>
+            </a>
+
+            <a
+              href=""
+              class="transition-transform duration-300 hover:scale-110">
+              <div
+                class="h-[150px] w-[150px] bg-myWhite shadow flex items-center justify-center">
+                <img
+                  src="./img/brand/image 2.png"
+                  alt=""
+                  class="h-[100px] w-auto" /></div
+            ></a>
+
+            <a
+              href=""
+              class="transition-transform duration-300 hover:scale-110">
+              <div
+                class="h-[150px] w-[150px] bg-myWhite shadow flex items-center justify-center">
+                <img
+                  src="./img/brand/image 3.png"
+                  alt=""
+                  class="h-[100px] w-auto" />
+              </div>
+            </a>
+
+            <a
+              href=""
+              class="transition-transform duration-300 hover:scale-110">
+              <div
+                class="h-[150px] w-[150px] bg-myWhite shadow flex items-center justify-center">
+                <img
+                  src="./img/brand/image 4.png"
+                  alt=""
+                  class="h-[100px] w-auto" />
+              </div>
+            </a>
+
+            <a
+              href=""
+              class="transition-transform duration-300 hover:scale-110">
+              <div
+                class="h-[150px] w-[150px] bg-myWhite shadow flex items-center justify-center">
+                <img
+                  src="./img/brand/image 5.png"
+                  alt=""
+                  class="h-[100px] w-auto" /></div
+            ></a>
+
+            <a
+              href=""
+              class="transition-transform duration-300 hover:scale-110">
+              <div
+                class="h-[150px] w-[150px] bg-myWhite shadow flex items-center justify-center">
+                <img
+                  src="./img/brand/image 7.png"
+                  alt=""
+                  class="h-[100px] w-auto" />
+              </div>
+            </a>
+
+            <a
+              href=""
+              class="transition-transform duration-300 hover:scale-110">
+              <div
+                class="h-[150px] w-[150px] bg-myWhite shadow flex items-center justify-center">
+                <img
+                  src="./img/brand/image 6.png"
+                  alt=""
+                  class="h-[100px] w-auto" /></div
+            ></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="brand mx-5 my-20">
+        <div class="text-myBlue flex justify-center">
+          <h1
+            class="font-montserrat text-center text-myBlue font-bold text-2xl">
+            Category
+          </h1>
+        </div>
+        <div class="flex justify-center my-5">
+          <a class="transition-transform duration-300 hover:scale-110">
+            <div class="min-w-[250px] min-h-[480px] mx-3 bg-catMen">
+              <h3
+                class="text-[32px] pt-11 font-montserrat text-center font-bold text-myWhite">
+                Men
+              </h3>
+            </div>
+          </a>
+
+          <a class="transition-transform duration-300 hover:scale-110">
+            <div class="min-w-[250px] min-h-[480px] mx-3 bg-catWomen">
+              <h3
+                class="text-[32px] pt-11 font-montserrat text-center font-bold text-myWhite">
+                Men
+              </h3>
+            </div>
+          </a>
+
+          <a href="" class="transition-transform duration-300 hover:scale-110">
+            <div class="min-w-[250px] min-h-[480px] mx-3 bg-catKids">
+              <h3
+                class="text-[32px] pt-11 font-montserrat text-center font-bold text-myWhite">
+                Kids
+              </h3>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <footer
+      class="w-full h-[280px] bg-myBlue flex justify-between items-center">
+      <div
+        class="w-[184px] h-[56px] bg-myWhite rounded-3xl mx-20 flex items-center justify-center">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="168"
+          height="48"
+          fill="none"
+          viewBox="0 0 168 48">
+          <path
+            fill="#000"
+            d="M11.196 35.36a19.17 19.17 0 0 1-5.652-.828c-1.8-.576-3.228-1.308-4.284-2.196L2.88 28.7c1.008.792 2.256 1.452 3.744 1.98 1.488.528 3.012.792 4.572.792 1.32 0 2.388-.144 3.204-.432.816-.288 1.416-.672 1.8-1.152a2.723 2.723 0 0 0 .576-1.692c0-.768-.276-1.38-.828-1.836-.552-.48-1.272-.852-2.16-1.116a29.515 29.515 0 0 0-2.916-.792 57.309 57.309 0 0 1-3.204-.828 15.265 15.265 0 0 1-2.916-1.26 6.538 6.538 0 0 1-2.124-2.088c-.552-.864-.828-1.968-.828-3.312 0-1.368.36-2.616 1.08-3.744.744-1.152 1.86-2.064 3.348-2.736 1.512-.696 3.42-1.044 5.724-1.044 1.512 0 3.012.192 4.5.576 1.488.384 2.784.936 3.888 1.656l-1.476 3.636a13.386 13.386 0 0 0-3.492-1.476c-1.2-.336-2.352-.504-3.456-.504-1.296 0-2.352.156-3.168.468-.792.312-1.38.72-1.764 1.224-.36.504-.54 1.08-.54 1.728 0 .768.264 1.392.792 1.872.552.456 1.26.816 2.124 1.08.888.264 1.872.528 2.952.792 1.08.24 2.148.516 3.204.828 1.08.312 2.052.72 2.916 1.224a5.807 5.807 0 0 1 2.124 2.052c.552.864.828 1.956.828 3.276a6.77 6.77 0 0 1-1.116 3.744c-.72 1.128-1.836 2.04-3.348 2.736-1.512.672-3.42 1.008-5.724 1.008Zm25.305-19.8c1.536 0 2.904.3 4.104.9 1.224.6 2.184 1.524 2.88 2.772.696 1.224 1.044 2.808 1.044 4.752V35h-4.5V24.56c0-1.704-.408-2.976-1.224-3.816-.792-.84-1.908-1.26-3.348-1.26-1.056 0-1.992.216-2.808.648-.816.432-1.452 1.08-1.908 1.944-.432.84-.648 1.908-.648 3.204V35h-4.5V8.288h4.5V20.96l-.972-1.584c.672-1.224 1.644-2.16 2.916-2.808 1.296-.672 2.784-1.008 4.464-1.008Zm21.872 19.692c-1.632 0-3.072-.3-4.32-.9-1.248-.624-2.22-1.56-2.916-2.808-.696-1.272-1.044-2.868-1.044-4.788v-10.98h4.5v10.368c0 1.728.384 3.024 1.152 3.888.792.84 1.908 1.26 3.348 1.26 1.056 0 1.968-.216 2.736-.648.792-.432 1.404-1.08 1.836-1.944.456-.864.684-1.932.684-3.204v-9.72h4.5V35h-4.284v-5.184l.756 1.584a6.722 6.722 0 0 1-2.844 2.88c-1.248.648-2.616.972-4.104.972Zm24.504 0c-1.632 0-3.072-.3-4.32-.9-1.248-.624-2.22-1.56-2.916-2.808-.696-1.272-1.044-2.868-1.044-4.788v-10.98h4.5v10.368c0 1.728.384 3.024 1.152 3.888.792.84 1.908 1.26 3.348 1.26 1.056 0 1.968-.216 2.736-.648.792-.432 1.404-1.08 1.836-1.944.456-.864.684-1.932.684-3.204v-9.72h4.5V35H89.07v-5.184l.756 1.584a6.722 6.722 0 0 1-2.844 2.88c-1.248.648-2.616.972-4.104.972ZM97.661 35v-2.844l11.844-14.328.828 1.548H97.877v-3.6h16.056v2.844l-11.844 14.328-.9-1.548h13.068V35H97.661Z" />
+          <path
+            fill="#5863F8"
+            d="M126.541 35.252c-1.632 0-3.072-.3-4.32-.9-1.248-.624-2.22-1.56-2.916-2.808-.696-1.272-1.044-2.868-1.044-4.788v-10.98h4.5v10.368c0 1.728.384 3.024 1.152 3.888.792.84 1.908 1.26 3.348 1.26 1.056 0 1.968-.216 2.736-.648.792-.432 1.404-1.08 1.836-1.944.456-.864.684-1.932.684-3.204v-9.72h4.5V35h-4.284v-5.184l.756 1.584a6.722 6.722 0 0 1-2.844 2.88c-1.248.648-2.616.972-4.104.972Z" />
+          <path
+            fill="#5863F8"
+            d="M139.873 10.368a1.01 1.01 0 0 0-.178.142l-3.001 3.001a2.248 2.248 0 0 0-.018 3.162l.019.02.093.103.357.385a299.543 299.543 0 0 0 5.56 5.839c3.267 3.334 7.191 7.149 9.529 8.72 2.633 1.779 5.026 2.78 6.772 3.338a19.33 19.33 0 0 0 2.089.546c.249.05.499.091.75.125l.037.004c.696.11 1.311.13 1.859.016a2.743 2.743 0 0 0 1.42-.762l.722-.722c.053-.054.1-.113.14-.175a3.153 3.153 0 0 0 1.031-2.332c-.12-1.334-1.378-2.104-2.492-2.785a4.768 4.768 0 0 1-1.473-1.134l-.82-1.914h.008a1.082 1.082 0 0 0 0-2.166h-.936l-.664-1.55a1.083 1.083 0 0 0-.402-2.09h-.493l-.549-1.28a1.08 1.08 0 0 0 1.036-1.107 1.085 1.085 0 0 0-1.087-1.057h-.876l-.424-.99a6.182 6.182 0 0 1-.136-.361 2.616 2.616 0 0 0-.742-1.173l-.536-.537a2.225 2.225 0 0 0-.874-.518v-.464c-.644-1.944-2.996-2.621-4.573-1.438l-2.194-2.238a2.136 2.136 0 0 0 .616-1.513 2.117 2.117 0 0 0-.638-1.504 3.208 3.208 0 0 0-4.532 0l-4.4 4.409Zm9.757 9.467.003-.768c0-1.754-.68-3.424-1.897-4.672l-4.445-4.533 2.439-2.442a1.09 1.09 0 0 1 1.637.103 2.121 2.121 0 0 0 0 2.99l4.568 4.581a2.216 2.216 0 0 0 3.073 0l.537.536a.714.714 0 0 1 .252.391l.003.01c.045.129.099.283.186.484l.076.18h-.973c-.598 0-1.083.484-1.083 1.082a1.096 1.096 0 0 0 1.083 1.083h1.901l.548 1.28h-.81c-.598 0-1.082.484-1.082 1.082a1.096 1.096 0 0 0 1.082 1.083h1.738l.631 1.474h-1.007c-.598 0-1.083.485-1.083 1.083 0 .3.124.567.32.763.195.196.464.31.763.32h1.935l1.169 2.729a5.248 5.248 0 0 0 2.296 2.075l.003.002c.519.316 1.483.904 1.509 1.198 0 .058-.057.234-.314.523a22.321 22.321 0 0 1-5.154-1.281c-3.033-1.167-6.17-3.241-7.34-6.91l-.001-.002c-.418-1.3-1.359-2.813-2.45-4.294l-.113-.15Zm-11.48-4.604a.178.178 0 0 1 0-.221l2.305-2.306a101.38 101.38 0 0 1 4.053 4.207c1.245 1.372 2.523 2.872 3.573 4.297 1.067 1.447 1.837 2.735 2.147 3.7.048.15.099.3.153.448l-12.228-10.123-.003-.002Z" />
+        </svg>
+      </div>
+
+      <div class="flex items-center">
+        <div class="mx-20">
+          <h1 class="font-montserrat font-bold text-lg text-myWhite">About</h1>
+          <div class="grid grid-cols-2 gap-4 pt-5">
+            <a
+              href=""
+              class="font-montserrat text-myWhite font-medium mr-4 text-sm"
+              >About us</a
+            >
+            <a
+              href=""
+              class="font-montserrat text-myWhite font-medium mr-4 text-sm"
+              >FAQ</a
+            >
+            <a
+              href=""
+              class="font-montserrat text-myWhite font-medium mr-4 text-sm"
+              >Store</a
+            >
+            <a
+              href=""
+              class="font-montserrat text-myWhite font-medium mr-4 text-sm"
+              >Return Policy</a
+            >
+            <a
+              href=""
+              class="font-montserrat text-myWhite font-medium mr-4 text-sm"
+              >Privacy Policy</a
+            >
+            <a
+              href=""
+              class="font-montserrat text-myWhite font-medium mr-4 text-sm"
+              >Contact Us</a
+            >
+            <a
+              href=""
+              class="font-montserrat text-myWhite font-medium mr-4 text-sm"
+              >Terms & Condition</a
+            >
+            <a
+              href=""
+              class="font-montserrat text-myWhite font-medium mr-4 text-sm"
+              >Size Guide</a
+            >
+          </div>
+        </div>
+        <div class="mx-20">
+          <h1 class="font-montserrat font-bold text-lg text-myWhite">About</h1>
+          <div class="grid pt-5">
+            <a
+              href=""
+              class="font-montserrat text-myWhite font-medium mr-4 my-2 text-sm"
+              >Men’s footwear</a
+            >
+            <a
+              href=""
+              class="font-montserrat text-myWhite font-medium mr-4 my-2 text-sm"
+              >Woman’s footwear</a
+            >
+            <a
+              href=""
+              class="font-montserrat text-myWhite font-medium mr-4 my-2 text-sm"
+              >Kids footwear</a
+            >
+            <a
+              href=""
+              class="font-montserrat text-myWhite font-medium mr-4 my-2 text-sm"
+              >Hoka</a
+            >
+          </div>
+        </div>
+        <div class="mx-20">
+          <h1 class="font-montserrat font-bold text-lg text-myWhite">
+            Related Link
+          </h1>
+          <div class="grid pt-5">
+            <a
+              href=""
+              class="font-montserrat text-myWhite font-medium mr-4 my-2 text-sm"
+              >Adidas</a
+            >
+            <a
+              href=""
+              class="font-montserrat text-myWhite font-medium mr-4 my-2 text-sm"
+              >Skechers</a
+            >
+            <a
+              href=""
+              class="font-montserrat text-myWhite font-medium mr-4 my-2 text-sm"
+              >Converse</a
+            >
+            <a
+              href=""
+              class="font-montserrat text-myWhite font-medium mr-4 my-2 text-sm"
+              >Reebok</a
+            >
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
