@@ -1,0 +1,9 @@
+.navMenu {
+  transition: transform 0.5s ease-in-out;
+}
+.navMenu.hidden {
+  transform: translateX(100%);
+}
+.navMenu.visible {
+  transform: translateX(0);
+}
