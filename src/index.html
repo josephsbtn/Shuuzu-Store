@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="./css/another.css" />
   </head>
   <body class="overflow-x-hidden">
-    <section class="home">
+    <section class="home w-full bg-myBlue">
       <div class="fixed top-0 left-0 w-full bg-myWhite shadow z-10">
         <div class="flex items-center justify-between shadow px-3">
           <div class="logo m-2">
@@ -70,7 +70,7 @@
               </svg>
             </a>
 
-            <a href="" class="px-2">
+            <a href="./cart.html" class="px-2">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="30"
@@ -99,7 +99,7 @@
       </div>
 
       <div
-        class="navMenu bg-myWhite h-screen w-64 p-5 hidden shadow top-12 right-0 flex-col fixed transition-all duration-200 ease-in-out">
+        class="navMenu transition duration-300 ease-in-out bg-myWhite h-screen w-64 p-5 hidden shadow top-12 right-0 flex-col fixed transform">
         <a href="#" class="flex items-center my-1">
           <svg
             width="30"
@@ -120,6 +120,7 @@
         </a>
         <a href="#" class="flex items-center my-3">
           <svg
+            class=""
             width="30"
             height="30"
             viewBox="0 0 40 40"
@@ -204,219 +205,205 @@
           <h1 class="ml-2">Log Out</h1>
         </a>
       </div>
-
-      <div
-        class="container px-14 min-h-screen bg-cover bg-center bg-heroBg flex items-center">
-        <div class="w-[500px]">
-          <h1 class="font-montserrat text-myWhite font-bold shadow text-[50px]">
-            Find your dream shoes
-          </h1>
-          <div
-            class="bg-myWhite relative flex items-center rounded-lg max-w-[550px]">
-            <input
-              class="w-[450px] h-[53px] text-[19px] px-4 rounded-lg text-myBlack transition duration-200 align-middle border-none focus:outline-none"
-              type="text"
-              placeholder="Search" />
-            <button>
-              <svg
-                width="30"
-                height="30"
-                viewBox="0 0 30 30"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg">
-                <g id="material-symbols:search">
-                  <path
-                    id="Vector"
-                    d="M24.5 26.25L16.625 18.375C16 18.875 15.2813 19.2708 14.4688 19.5625C13.6563 19.8542 12.7917 20 11.875 20C9.60417 20 7.6825 19.2133 6.11 17.64C4.5375 16.0667 3.75083 14.145 3.75 11.875C3.74917 9.605 4.53583 7.68333 6.11 6.11C7.68417 4.53667 9.60583 3.75 11.875 3.75C14.1442 3.75 16.0663 4.53667 17.6413 6.11C19.2163 7.68333 20.0025 9.605 20 11.875C20 12.7917 19.8542 13.6562 19.5625 14.4688C19.2708 15.2812 18.875 16 18.375 16.625L26.25 24.5L24.5 26.25ZM11.875 17.5C13.4375 17.5 14.7658 16.9533 15.86 15.86C16.9542 14.7667 17.5008 13.4383 17.5 11.875C17.4992 10.3117 16.9525 8.98375 15.86 7.89125C14.7675 6.79875 13.4392 6.25167 11.875 6.25C10.3108 6.24833 8.98292 6.79542 7.89125 7.89125C6.79958 8.98708 6.2525 10.315 6.25 11.875C6.2475 13.435 6.79458 14.7633 7.89125 15.86C8.98792 16.9567 10.3158 17.5033 11.875 17.5Z"
-                    fill="black" />
-                </g>
-              </svg>
-            </button>
-          </div>
-        </div>
-      </div>
-
-      <div class="brand mx-5 my-20">
-        <div class="text-myBlue flex justify-center">
-          <h1
-            class="font-montserrat text-center text-myBlue font-bold text-2xl">
-            Latest Product
-          </h1>
-        </div>
-        <div class="flex justify-center mt-10">
-          <a href="" class="transition-transform duration-300 hover:scale-110">
-            <div class="max-w-[350px] mx-3">
-              <img
-                src="./img/sepatu/Rectangle 18.png"
-                class="w-[380px] h-auto" />
-              <h3 class="text-lg font-montserrat">
-                Reebok Zig Dynamica 4 Adv Mens Running Shoes - Pure Grey
-              </h3>
-              <h3 class="font-montserrat font-bold">Rp 1.199.000</h3>
-            </div>
-          </a>
-
-          <a href="" class="transition-transform duration-300 hover:scale-110">
-            <div class="max-w-[350px] mx-3">
-              <img src="./img/sepatu/hoka.png" class="w-[380px] h-auto" />
-              <h3 class="text-lg">
-                Hoka Trail Code GTX Men`s Running Shoes - Shadow/Dusk
-              </h3>
-              <h3 class="font-montserrat font-bold">Rp 1.199.000</h3>
-            </div>
-          </a>
-
-          <a href="" class="transition-transform duration-300 hover:scale-110">
-            <div class="max-w-[350px] mx-3">
-              <img src="./img/sepatu/converse.png" class="w-[380px] h-auto" />
-              <h3 class="text-lg font-montserrat">
-                Converse CTAS Move Women's Sneakers - Soft Peach/White/Egret
-              </h3>
-              <h3 class="font-montserrat font-bold">Rp 1.199.000</h3>
-            </div>
-          </a>
-        </div>
-      </div>
-
-      <div class="flex justify-center my-20">
-        <div class="flex flex-col items-center">
-          <h1
-            class="font-montserrat text-center text-myBlue font-bold text-2xl">
-            Brand
-          </h1>
-          <div class="grid grid-cols-4 gap-6 mx-20 my-10 justify-center">
-            <a
-              href=""
-              class="transition-transform duration-300 hover:scale-110">
-              <div
-                class="h-[150px] w-[150px] bg-myWhite shadow flex items-center justify-center">
-                <img
-                  src="./img/brand/image 10.png "
-                  alt=""
-                  class="h-[100px] w-auto" /></div
-            ></a>
-
-            <a
-              href=""
-              class="transition-transform duration-300 hover:scale-110">
-              <div
-                class="h-[150px] w-[150px] bg-myWhite shadow flex items-center justify-center">
-                <img
-                  src="./img/brand/image 13.png"
-                  alt=""
-                  class="h-[100px] w-auto" />
-              </div>
-            </a>
-
-            <a
-              href=""
-              class="transition-transform duration-300 hover:scale-110">
-              <div
-                class="h-[150px] w-[150px] bg-myWhite shadow flex items-center justify-center">
-                <img
-                  src="./img/brand/image 2.png"
-                  alt=""
-                  class="h-[100px] w-auto" /></div
-            ></a>
-
-            <a
-              href=""
-              class="transition-transform duration-300 hover:scale-110">
-              <div
-                class="h-[150px] w-[150px] bg-myWhite shadow flex items-center justify-center">
-                <img
-                  src="./img/brand/image 3.png"
-                  alt=""
-                  class="h-[100px] w-auto" />
-              </div>
-            </a>
-
-            <a
-              href=""
-              class="transition-transform duration-300 hover:scale-110">
-              <div
-                class="h-[150px] w-[150px] bg-myWhite shadow flex items-center justify-center">
-                <img
-                  src="./img/brand/image 4.png"
-                  alt=""
-                  class="h-[100px] w-auto" />
-              </div>
-            </a>
-
-            <a
-              href=""
-              class="transition-transform duration-300 hover:scale-110">
-              <div
-                class="h-[150px] w-[150px] bg-myWhite shadow flex items-center justify-center">
-                <img
-                  src="./img/brand/image 5.png"
-                  alt=""
-                  class="h-[100px] w-auto" /></div
-            ></a>
-
-            <a
-              href=""
-              class="transition-transform duration-300 hover:scale-110">
-              <div
-                class="h-[150px] w-[150px] bg-myWhite shadow flex items-center justify-center">
-                <img
-                  src="./img/brand/image 7.png"
-                  alt=""
-                  class="h-[100px] w-auto" />
-              </div>
-            </a>
-
-            <a
-              href=""
-              class="transition-transform duration-300 hover:scale-110">
-              <div
-                class="h-[150px] w-[150px] bg-myWhite shadow flex items-center justify-center">
-                <img
-                  src="./img/brand/image 6.png"
-                  alt=""
-                  class="h-[100px] w-auto" /></div
-            ></a>
-          </div>
-        </div>
-      </div>
-
-      <div class="brand mx-5 my-20">
-        <div class="text-myBlue flex justify-center">
-          <h1
-            class="font-montserrat text-center text-myBlue font-bold text-2xl">
-            Category
-          </h1>
-        </div>
-        <div class="flex justify-center my-5">
-          <a class="transition-transform duration-300 hover:scale-110">
-            <div class="min-w-[250px] min-h-[480px] mx-3 bg-catMen">
-              <h3
-                class="text-[32px] pt-11 font-montserrat text-center font-bold text-myWhite">
-                Men
-              </h3>
-            </div>
-          </a>
-
-          <a class="transition-transform duration-300 hover:scale-110">
-            <div class="min-w-[250px] min-h-[480px] mx-3 bg-catWomen">
-              <h3
-                class="text-[32px] pt-11 font-montserrat text-center font-bold text-myWhite">
-                Men
-              </h3>
-            </div>
-          </a>
-
-          <a href="" class="transition-transform duration-300 hover:scale-110">
-            <div class="min-w-[250px] min-h-[480px] mx-3 bg-catKids">
-              <h3
-                class="text-[32px] pt-11 font-montserrat text-center font-bold text-myWhite">
-                Kids
-              </h3>
-            </div>
-          </a>
-        </div>
-      </div>
     </section>
+
+    <div class="w-full min-h-screen bg-heroBg mt-10 flex items-center">
+      <div class="w-[500px] ml-10">
+        <h1 class="font-montserrat text-myWhite font-bold shadow text-[50px]">
+          Find your dream shoes
+        </h1>
+        <div
+          class="bg-myWhite relative flex items-center rounded-lg max-w-[550px]">
+          <input
+            type="text"
+            class="w-[450px] h-[53px] text-[19px] px-4 rounded-lg text-myBlack transition duration-200 align-middle border-none focus:outline-none"
+            placeholder="Search" />
+          <button>
+            <svg
+              width="30"
+              height="30"
+              viewBox="0 0 30 30"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <g id="material-symbols:search">
+                <path
+                  id="Vector"
+                  d="M24.5 26.25L16.625 18.375C16 18.875 15.2813 19.2708 14.4688 19.5625C13.6563 19.8542 12.7917 20 11.875 20C9.60417 20 7.6825 19.2133 6.11 17.64C4.5375 16.0667 3.75083 14.145 3.75 11.875C3.74917 9.605 4.53583 7.68333 6.11 6.11C7.68417 4.53667 9.60583 3.75 11.875 3.75C14.1442 3.75 16.0663 4.53667 17.6413 6.11C19.2163 7.68333 20.0025 9.605 20 11.875C20 12.7917 19.8542 13.6562 19.5625 14.4688C19.2708 15.2812 18.875 16 18.375 16.625L26.25 24.5L24.5 26.25ZM11.875 17.5C13.4375 17.5 14.7658 16.9533 15.86 15.86C16.9542 14.7667 17.5008 13.4383 17.5 11.875C17.4992 10.3117 16.9525 8.98375 15.86 7.89125C14.7675 6.79875 13.4392 6.25167 11.875 6.25C10.3108 6.24833 8.98292 6.79542 7.89125 7.89125C6.79958 8.98708 6.2525 10.315 6.25 11.875C6.2475 13.435 6.79458 14.7633 7.89125 15.86C8.98792 16.9567 10.3158 17.5033 11.875 17.5Z"
+                  fill="black" />
+              </g>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="brand mx-5 my-20">
+      <div class="text-myBlue flex justify-center">
+        <h1 class="font-montserrat text-center text-myBlue font-bold text-2xl">
+          Latest Product
+        </h1>
+      </div>
+      <div class="flex justify-center mt-10">
+        <a
+          href="./reebokZig.html"
+          class="transition-transform duration-300 hover:scale-110">
+          <div class="max-w-[350px] mx-3">
+            <img src="./img/sepatu/Rectangle 18.png" class="w-[380px] h-auto" />
+            <h3 class="text-lg font-montserrat">
+              Reebok Zig Dynamica 4 Adv Mens Running Shoes - Pure Grey
+            </h3>
+            <h3 class="font-montserrat font-bold">Rp 1.199.000</h3>
+          </div>
+        </a>
+
+        <a href="" class="transition-transform duration-300 hover:scale-110">
+          <div class="max-w-[350px] mx-3">
+            <img src="./img/sepatu/hoka.png" class="w-[380px] h-auto" />
+            <h3 class="text-lg">
+              Hoka Trail Code GTX Men`s Running Shoes - Shadow/Dusk
+            </h3>
+            <h3 class="font-montserrat font-bold">Rp 1.199.000</h3>
+          </div>
+        </a>
+
+        <a href="" class="transition-transform duration-300 hover:scale-110">
+          <div class="max-w-[350px] mx-3">
+            <img src="./img/sepatu/converse.png" class="w-[380px] h-auto" />
+            <h3 class="text-lg font-montserrat">
+              Converse CTAS Move Women's Sneakers - Soft Peach/White/Egret
+            </h3>
+            <h3 class="font-montserrat font-bold">Rp 1.199.000</h3>
+          </div>
+        </a>
+      </div>
+    </div>
+
+    <div class="flex justify-center my-20">
+      <div class="flex flex-col items-center">
+        <h1 class="font-montserrat text-center text-myBlue font-bold text-2xl">
+          Brand
+        </h1>
+        <div class="grid grid-cols-4 gap-6 mx-20 my-10 justify-center">
+          <a href="" class="transition-transform duration-300 hover:scale-110">
+            <div
+              class="h-[150px] w-[150px] bg-myWhite shadow flex items-center justify-center">
+              <img
+                src="./img/brand/image 10.png "
+                alt=""
+                class="h-[100px] w-auto" /></div
+          ></a>
+
+          <a href="" class="transition-transform duration-300 hover:scale-110">
+            <div
+              class="h-[150px] w-[150px] bg-myWhite shadow flex items-center justify-center">
+              <img
+                src="./img/brand/image 13.png"
+                alt=""
+                class="h-[100px] w-auto" />
+            </div>
+          </a>
+
+          <a href="" class="transition-transform duration-300 hover:scale-110">
+            <div
+              class="h-[150px] w-[150px] bg-myWhite shadow flex items-center justify-center">
+              <img
+                src="./img/brand/image 2.png"
+                alt=""
+                class="h-[100px] w-auto" /></div
+          ></a>
+
+          <a href="" class="transition-transform duration-300 hover:scale-110">
+            <div
+              class="h-[150px] w-[150px] bg-myWhite shadow flex items-center justify-center">
+              <img
+                src="./img/brand/image 3.png"
+                alt=""
+                class="h-[100px] w-auto" />
+            </div>
+          </a>
+
+          <a href="" class="transition-transform duration-300 hover:scale-110">
+            <div
+              class="h-[150px] w-[150px] bg-myWhite shadow flex items-center justify-center">
+              <img
+                src="./img/brand/image 4.png"
+                alt=""
+                class="h-[100px] w-auto" />
+            </div>
+          </a>
+
+          <a href="" class="transition-transform duration-300 hover:scale-110">
+            <div
+              class="h-[150px] w-[150px] bg-myWhite shadow flex items-center justify-center">
+              <img
+                src="./img/brand/image 5.png"
+                alt=""
+                class="h-[100px] w-auto" /></div
+          ></a>
+
+          <a href="" class="transition-transform duration-300 hover:scale-110">
+            <div
+              class="h-[150px] w-[150px] bg-myWhite shadow flex items-center justify-center">
+              <img
+                src="./img/brand/image 7.png"
+                alt=""
+                class="h-[100px] w-auto" />
+            </div>
+          </a>
+
+          <a href="" class="transition-transform duration-300 hover:scale-110">
+            <div
+              class="h-[150px] w-[150px] bg-myWhite shadow flex items-center justify-center">
+              <img
+                src="./img/brand/image 6.png"
+                alt=""
+                class="h-[100px] w-auto" /></div
+          ></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="brand mx-5 my-20">
+      <div class="text-myBlue flex justify-center">
+        <h1 class="font-montserrat text-center text-myBlue font-bold text-2xl">
+          Category
+        </h1>
+      </div>
+      <div class="flex justify-center my-5">
+        <a
+          href="./men.html"
+          class="transition-transform duration-300 hover:scale-110">
+          <div class="min-w-[250px] min-h-[480px] mx-3 bg-catMen">
+            <h3
+              class="text-[32px] pt-11 font-montserrat text-center font-bold text-myWhite">
+              Men
+            </h3>
+          </div>
+        </a>
+
+        <a
+          href="./women.html"
+          class="transition-transform duration-300 hover:scale-110">
+          <div class="min-w-[250px] min-h-[480px] mx-3 bg-catWomen">
+            <h3
+              class="text-[32px] pt-11 font-montserrat text-center font-bold text-myWhite">
+              Women
+            </h3>
+          </div>
+        </a>
+
+        <a
+          href="./kids.html"
+          class="transition-transform duration-300 hover:scale-110">
+          <div class="min-w-[250px] min-h-[480px] mx-3 bg-catKids">
+            <h3
+              class="text-[32px] pt-11 font-montserrat text-center font-bold text-myWhite">
+              Kids
+            </h3>
+          </div>
+        </a>
+      </div>
+    </div>
 
     <footer
       class="w-full h-[280px] bg-myBlue flex justify-between items-center">
